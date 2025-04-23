@@ -9,12 +9,12 @@
 /**
  * This class is the Splash Scene.
  */
-class SplashScene extends Phaser.Scene {
+class TitleScene extends Phaser.Scene {
   /**
    * This method is the constructor.
    */
   constructor() {
-    super({ key: "splashScene" });
+    super({ key: "titleScene" });
   }
 
   /**
