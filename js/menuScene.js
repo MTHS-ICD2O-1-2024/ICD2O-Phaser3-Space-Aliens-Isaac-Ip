@@ -18,13 +18,13 @@ class MenuScene extends Phaser.Scene {
   }
 
   /**
-   * Can be defined on your own Senes.
-   * This method is called by theScene Manager when the scene starts,
-   * before preload() and create(.
-   * @param {object} data Any dat passed via ScenePlugin.add() or ScenePlugin.start().
+   * Can be defined on your own Scenes.
+   * This method is called by the Scene Manager when the scene starts,
+   * before preload() and create().
+   * @param {object} data Any data passed via ScenePlugin.add() or ScenePlugin.start().
    */
   init(data) {
-    this.cameras.main.setBackgroudColor("ffffff");
+    this.cameras.main.setBackgroundColor("#ffffff");
   }
 
   /**
@@ -41,7 +41,11 @@ class MenuScene extends Phaser.Scene {
    * @param {object} data Any data passed via ScenePlugin.add() or ScenePlugin.start().
    */
   create(data) {
-    // pass
+    // Add a title text to the menu scene
+    this.add.text(400, 300, "Menu Scene", {
+      font: "32px Arial",
+      fill: "#000000",
+    }).setOrigin(0.5, 0.5);
   }
 
   /**
