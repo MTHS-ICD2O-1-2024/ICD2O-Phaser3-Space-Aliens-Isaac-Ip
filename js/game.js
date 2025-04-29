@@ -6,7 +6,7 @@
 // Created on: Apr 2025
 // This is the Phaser3 game configuration file
 
-// scene isport statements 
+// scene import statements 
 import SplashScene from "./splashScene.js"
 import TitleScene from "./titleScene.js"
 import MenuScene from "./menuScene.js"
@@ -34,7 +34,7 @@ const config = {
   scale: {
     mode: Phaser.Scale.FIT,
     // we place it in the middle of the page.
-    autoCenter: Phaser.Scale.CENTER_BOTH
+    autoCenter: Phaser.Scale.CENTER_BOTH,
   }
 }
 

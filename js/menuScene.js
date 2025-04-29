@@ -41,11 +41,7 @@ class MenuScene extends Phaser.Scene {
    * @param {object} data Any data passed via ScenePlugin.add() or ScenePlugin.start().
    */
   create(data) {
-    // Add a title text to the menu scene
-    this.add.text(400, 300, "Menu Scene", {
-      font: "32px Arial",
-      fill: "#000000",
-    }).setOrigin(0.5, 0.5);
+    // pass
   }
 
   /**
