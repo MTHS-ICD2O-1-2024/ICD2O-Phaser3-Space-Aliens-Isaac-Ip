@@ -15,7 +15,6 @@ class MenuScene extends Phaser.Scene {
    */
   constructor() {
     super({ key: "menuScene" });
-    console.log("Menu Scene");
   }
 
   /**
@@ -33,7 +32,7 @@ class MenuScene extends Phaser.Scene {
    * Use it to load assets.
    */
   preload() {
-
+    console.log("Menu Scene");
   }
 
   /**
