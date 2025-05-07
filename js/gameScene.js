@@ -93,6 +93,7 @@ class GameScene extends Phaser.Scene {
     if (keySpaceObj.isUp === true) {
       this.fireMissile = false;
     }
+  }
 }
 
-export default GameScene
+export default GameScene;
