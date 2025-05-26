@@ -92,7 +92,6 @@ class GameScene extends Phaser.Scene {
       this.createAlien();
       this.createAlien();
     }.bind(this));
-  }
 
     // collisions between the ship and the aliens
     this.physics.add.collider(this.ship, this.alienGroup, function (shipCollide, alienCollide) {
@@ -104,6 +103,7 @@ class GameScene extends Phaser.Scene {
       this.gameOverText = this.add.text(1920 / 2, 1080 / 2, "Game Over!\nClick to play again.", this.gameOverTextStyle).setOrigin(0.5);
       this.gameOverText.setInteractive({ useHandCursor: true });
     }.bind(this));
+  }
 
   /**
    * Should be overridden by your own Scenes.
