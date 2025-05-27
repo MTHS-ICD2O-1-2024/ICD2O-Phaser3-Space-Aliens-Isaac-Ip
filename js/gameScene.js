@@ -7,7 +7,7 @@
 // This is the Game Scene
 
 /**
- * This class is the Splash Scene.
+ * This class is the Game Scene.
  */
 class GameScene extends Phaser.Scene {
   // create an alien
